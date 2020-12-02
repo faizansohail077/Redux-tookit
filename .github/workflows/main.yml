@@ -25,4 +25,4 @@ jobs:
       - name: install surge
         run: npm install --global surge
       - name: surge deploy
-        run: surge ./build Project_9a_bootcamp2020_faizan.surge.sh --token ${{secrets.SURGE_TOKEN}} 
+        run: surge ./out Project_9a_bootcamp2020_faizan.surge.sh --token ${{secrets.SURGE_TOKEN}} 
